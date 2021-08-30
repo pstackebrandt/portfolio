@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/428392/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Tue, 16 Feb 2021 19:52:53 UTC
+update_date: Mon, 30 Aug 2021 20:29:22 UTC
 stages:
 - id: 730
   step: 11307
@@ -40,13 +40,15 @@ topics:
     theory_id: 7271
   - title: Inline Elements
     theory_id: 7518
-  - title: The Lang Attribute
-    theory_id: 12212
   - title: Images
     theory_id: 9237
+  - title: The lang attribute
+    theory_id: 12212
   - title: WebStorm
     theory_id: 9492
   1:
+  - title: What is CSS
+    theory_id: 7678
   - title: HTML attributes id and class
     theory_id: 7527
   - title: Lists
@@ -54,10 +56,14 @@ topics:
   - title: Links
     theory_id: 11834
   2:
+  - title: Introduction to UI/UX
+    theory_id: 14603
+  - title: Layout grids
+    theory_id: 14922
+  - title: Interface elements
+    theory_id: 15253
   - title: Comments
     theory_id: 7502
-  - title: What is CSS
-    theory_id: 7678
   - title: Connecting CSS to HTML
     theory_id: 7418
   - title: Basic syntax
@@ -68,8 +74,6 @@ topics:
     theory_id: 7730
   - title: Google Fonts
     theory_id: 7844
-  - title: Colors
-    theory_id: 7973
   - title: Border
     theory_id: 8355
   - title: List style
@@ -84,16 +88,16 @@ topics:
     theory_id: 8325
   - title: Margin and padding
     theory_id: 8346
-  - title: Background
-    theory_id: 11670
   - title: line-height
     theory_id: 11153
   - title: Position
     theory_id: 11581
   - title: Positioning Properties
     theory_id: 8204
-  - title: z-index
-    theory_id: 11161
+  - title: Float
+    theory_id: 12697
+  - title: Clear
+    theory_id: 12705
   - title: Introduction to Flexbox
     theory_id: 11760
   - title: Orientation and display order
@@ -106,31 +110,23 @@ topics:
     theory_id: 12228
   - title: Combinators
     theory_id: 12236
+  - title: Colors
+    theory_id: 7973
+  - title: z-index
+    theory_id: 11161
+  - title: Background
+    theory_id: 11670
   3:
+  - title: Connecting JS to HTML
+    theory_id: 7510
   - title: DOM
     theory_id: 8635
   - title: HTML forms
     theory_id: 6560
-  - title: Introduction to JavaScript
-    theory_id: 8016
-  - title: Overview of the basic program
-    theory_id: 8154
-  - title: Multi-line programs
-    theory_id: 8162
   - title: Comments
     theory_id: 8170
-  - title: Variables
-    theory_id: 8186
   - title: Naming variables
     theory_id: 8364
-  - title: Strings and numbers
-    theory_id: 8194
-  - title: Arithmetic operators
-    theory_id: 8372
-  - title: Introduction to Objects
-    theory_id: 8588
-  - title: Arrays
-    theory_id: 9110
   - title: Functions
     theory_id: 8388
   - title: Arrow functions
@@ -139,12 +135,28 @@ topics:
     theory_id: 8662
   - title: ClassList
     theory_id: 11653
+  - title: Arrays
+    theory_id: 9110
   - title: Pseudo-classes
     theory_id: 9762
   - title: Opacity
     theory_id: 11169
   - title: Introduction to animation
     theory_id: 10287
+  - title: Introduction to JavaScript
+    theory_id: 8016
+  - title: Overview of the basic program
+    theory_id: 8154
+  - title: Multi-line programs
+    theory_id: 8162
+  - title: Variables
+    theory_id: 8186
+  - title: Strings and numbers
+    theory_id: 8194
+  - title: Introduction to Objects
+    theory_id: 8588
+  - title: Arithmetic operators
+    theory_id: 8372
   4:
   - title: Tables
     theory_id: 10832

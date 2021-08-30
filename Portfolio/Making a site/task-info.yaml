@@ -155,6 +155,19 @@ files:
         }
     );
   learner_created: false
+- name: src/css/style.css
+  visible: true
+  text: |-
+    .image-title {
+        color: darkorange;
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/731/implement#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Error: Failed: "Wrong answer in test #1
+
+    Cannot find the header in the document."
+  time: Mon, 30 Aug 2021 21:14:18 UTC
 record: -1
