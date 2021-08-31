@@ -86,7 +86,24 @@ files:
                 return hs.correct();
             },
 
-            // Test #4 - check if the document has the <footer> element
+            // Test #4 - check if the document has the <h1> element
+            () => {
+                let html = document.getElementsByTagName('html')[0];
+
+                let margin = window.getComputedStyle(html).margin;
+                if (margin !== '0px') {
+                    return hs.wrong('It seems that you have not reset the default margin property');
+                }
+
+                let padding = window.getComputedStyle(html).padding;
+                if (padding !== '0px') {
+                    return hs.wrong('It seems that you have not reset the default padding property');
+                }
+
+                return hs.correct();
+            },
+
+            // Test #5 - check if the document has the <footer> element
             () => {
                 let footers = document.getElementsByTagName('footer');
 
@@ -99,7 +116,7 @@ files:
                 return hs.correct();
             },
 
-            // Test #5 - check if the document has at least three section elements
+            // Test #6 - check if the document has at least three section elements
             () => {
                 let sections = document.getElementsByTagName('section');
 
@@ -110,7 +127,7 @@ files:
                 return hs.correct();
             },
 
-            // Test #6 - check the "about me" section
+            // Test #7 - check the "about me" section
             () => {
                 let sections = document.getElementById('about');
 
@@ -121,7 +138,7 @@ files:
                 return hs.correct();
             },
 
-            // Test #7 - check the "portfolio" section
+            // Test #8 - check the "portfolio" section
             () => {
                 let sections = document.getElementById('portfolio');
 
@@ -132,7 +149,7 @@ files:
                 return hs.correct();
             },
 
-            // Test #8 - check the "contacts" section
+            // Test #9 - check the "contacts" section
             () => {
                 let sections = document.getElementById('contacts');
 
@@ -143,8 +160,7 @@ files:
                 return hs.correct();
             },
 
-            // Test #9 - check header and footer background colors
-            // Test #9 - check header and footer background colors
+            // Test #10 - check header and footer background colors
             () => {
                 function getRealColor(elem) {
                     try {
@@ -204,7 +220,7 @@ files:
                 return hs.correct()
             },
 
-            // Test #10 - check click button and show popup window
+            // Test #11 - check click button and show popup window
             () => {
                 let buttons = document.getElementsByClassName('open-window');
 
