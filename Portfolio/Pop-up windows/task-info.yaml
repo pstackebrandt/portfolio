@@ -252,6 +252,119 @@ files:
         }
     );
   learner_created: false
+- name: src/css/style.css
+  visible: true
+  text: |
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+    .image-title {
+        color: darkorange;
+    }
+
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+        background-color: #f0b180;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        color: darkred;
+        background-color: yellowgreen;
+    }
+
+    nav {
+        font-size: 30px;
+    }
+
+    footer {
+        background-color: #f0b180;
+        height: 100px;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #content {
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #aboutPlus {
+        background-color: yellow;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #photo-peter {
+
+    }
+
+    #about {
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #text-about {
+        max-width: 400px;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 450px;
+    }
+
+    #portfolio {
+        background-color: burlywood;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #projects_web {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #contacts {
+
+    }
+
+    p, li{
+        padding: 16px;
+        font-size: 20px;
+    }
+  learner_created: true
+- name: src/pop-up_template.html
+  visible: true
+  learner_created: true
+- name: src/css/style_pop-up_template.css
+  visible: true
+  learner_created: true
+- name: src/scripts/script.js
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/733/implement#comment
 status: Unchecked
 record: -1
