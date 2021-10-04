@@ -16,6 +16,10 @@ header {
     justify-content: space-around;
 }
 
+/* Has no use for us. Is required by Stage 4/5. */
+.open-window {
+}
+
 h1 {
     font-size: 40px;
 }
@@ -94,7 +98,7 @@ footer {
 
 }
 
-p, li{
+p, li {
     padding: 16px;
     font-size: 20px;
 }

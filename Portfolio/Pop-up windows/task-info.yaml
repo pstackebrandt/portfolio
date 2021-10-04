@@ -366,5 +366,10 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/733/implement#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Error: Evaluation failed: TypeError: Cannot read property 'click' of null
+        at __puppeteer_evaluation_script__:1:46
+  time: Mon, 04 Oct 2021 14:30:16 UTC
 record: -1
