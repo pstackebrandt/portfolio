@@ -4,15 +4,13 @@
 
 .modal {
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
     z-index: 10;
     background-color: white;
-    width: 500px;
+    width: 60%;
     max-width: 80%;
 }
 
@@ -25,12 +23,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+    background-color: #f0b180;
 }
 
 .modal-header .title {
     font-size: 1.25rem;
     font-weight: bold;
+    align-self: center;
 }
 
 .modal-header .close-button {
@@ -42,12 +42,12 @@
     font-weight: bold;
 }
 
-/* suppress bug */
-.toggleDetails {
-}
-
 .modal-body {
     padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #overlay {
