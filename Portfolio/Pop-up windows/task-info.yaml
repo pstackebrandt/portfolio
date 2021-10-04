@@ -366,11 +366,8 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/733/implement#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Error: Failed: "Wrong answer in test #11
-
-    Cannot find the element with the class \"window\"."
-  time: Mon, 04 Oct 2021 15:10:58 UTC
+  message: Congratulations!
+  time: Mon, 04 Oct 2021 15:17:45 UTC
 record: -1
