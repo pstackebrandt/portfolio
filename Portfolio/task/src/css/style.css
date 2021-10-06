@@ -30,8 +30,23 @@ h2 {
     /*background-color: yellowgreen;*/
 }
 
+/* Navigation menu */
 nav {
     font-size: 30px;
+    display: block;
+}
+
+/* big screen */
+.bigScreenMenuItem {
+    display: inline;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/* small screen */
+.smallScreeMenuItem {
+    display: block;
+    padding-top: 0.5em;
 }
 
 footer {
