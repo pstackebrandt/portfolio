@@ -464,7 +464,7 @@ files:
     }
 
   learner_created: true
-- name: src/scripts/script.js
+- name: src/scripts/popup.js
   visible: true
   text: |-
     const openModalButtons = document.querySelectorAll('[data-modal-target]')
@@ -503,6 +503,9 @@ files:
         modal.classList.remove('active')
         overlay.classList.remove('active')
     }
+  learner_created: true
+- name: src/scripts/menu.js
+  visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/734/implement#comment
 status: Failed

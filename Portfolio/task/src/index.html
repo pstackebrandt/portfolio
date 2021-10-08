@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <!-- What does viewport do?   -->
@@ -6,7 +6,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link href="css/style_pop-up_template.css" rel="stylesheet"/>
-    <script defer src="scripts/script.js"></script>
+    <script defer src="scripts/popup.js"></script>
+    <script defer src="scripts/menu.js"></script>
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,10 +15,10 @@
 
 <header>
     <h1>Peter Stackebrandt</h1>
-    <nav class="topnav">
+    <nav class="topnav" id="myTopnav">
         <!-- hamburger icon for small screen -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+        <a href="javascript:void(0);" class="icon" onclick="toggleBurgerMenu()">
+            <i class="fa fa-bars "></i>
         </a>
         <a class="navMenuItem" href="#about">About</a>
         <a class="navMenuItem" href="#portfolio">Portfolio</a>
@@ -46,7 +47,7 @@
         </section>
     </section>
 
-    <section class="columnWithCenteredContent" id="portfolio">
+    <section class="flexColumnWithCenteredContent" id="portfolio">
         <h2>Portfolio</h2>
         <p>- Contains some current training projects -</p>
 
@@ -54,7 +55,7 @@
             <h3>Web</h3>
 
             <article  id="project_flashcard" class="project">
-                <div class="project_preview columnWithCenteredContent">
+                <div class="project_preview flexColumnWithCenteredContent">
                     <img alt='Screenshot of web project "flashcard"' src="images/project1.png"
                          width="100%"/>
                     <p class="image-title">Web project "flashcard"</p>
@@ -76,7 +77,7 @@
             </article>
 
             <article id="project_portfolio"  class="project">
-                <div class="project_preview columnWithCenteredContent">
+                <div class="project_preview flexColumnWithCenteredContent">
                     <img alt='Screenshot of web project "Portfolio"'
                          src="images/project_portfolio_intermediate_state.jpeg"
                          width="100%"/>
@@ -103,7 +104,7 @@
             <h3>Kotlin</h3>
 
             <article id="project_tik-tak-toe" class="project">
-                <div class="project_preview columnWithCenteredContent">
+                <div class="project_preview flexColumnWithCenteredContent">
                     <img alt='Screenshot of kotlin console project "Tik-tak-toe"' src="images/" height="400"
                          width="800"/>
                     <p class="image-title">Kotlin console project "Tik-tak-toe"</p>
@@ -134,7 +135,7 @@
     </section>
 
     <footer>
-        <section id="contacts">
+        <section id="contacts" class="flexColumnWithCenteredContent">
             <p>Author: Peter Stackebrandt</p>
             <p><a href="mailto:peter.stackebrandt@gmail.com">peter.stackebrandt@gmail.com</a></p>
         </section>

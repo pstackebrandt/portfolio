@@ -35,7 +35,6 @@ h3 {
 }
 /* Navigation menu */
 nav {
-    font-size: 30px;
     display: block;
 }
 
@@ -55,15 +54,19 @@ nav {
     padding-right: 0.5em;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home")
-. Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than x pixels wide, hide all links and show burger menu icon.
+   After click on burger icon show the links. */
 @media screen and (max-width: 1000px) {
+
+    /*********************
+    *  Menu items hidden
+    ***********************/
     header {
         /*background-color: red;*/
         justify-content: space-between;
     }
 
-    /* small screen */
+    /* Menu items not visible */
     .navMenuItem {
         display: none;
         padding: 0.3em;
@@ -75,7 +78,7 @@ nav {
     }
 
     .icon {
-        float: right;
+        /*float: right;*/
         font-size: 10vw;
         display: block;
         padding: 4vw;
@@ -84,13 +87,32 @@ nav {
     nav a {
         /*background-color: blue;*/
     }
+
+    /**************************
+    *  Menu items visible
+    ****************************/
+
+    /* Menu item visible */
+    .topNav.menuItemsVisible .navMenuItem {
+        display: block;
+        padding: 0.3em;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .topNav.menuItemsVisible .icon {
+        /*float: right;*/
+        font-size: 8vw;
+        display: block;
+        padding: 2vw;
+    }
 }
 
 .image-title {
     color: darkorange;
 }
 
-.columnWithCenteredContent {
+.flexColumnWithCenteredContent {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,15 +124,14 @@ nav {
     padding: 0.5em;
 }
 
-
-
 footer {
     background-color: #f0b180;
     height: 100px;
     display: flex;
+    flex-direction: column;
     font-size: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #content {
@@ -160,7 +181,7 @@ footer {
 #projects_web {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
@@ -171,6 +192,11 @@ footer {
 p, li {
     padding: 16px;
     font-size: 20px;
+}
+
+#contacts p {
+    padding: 1em;
+    font-size: 1em;
 }
 
 button {
